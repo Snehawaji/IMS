@@ -1,0 +1,15 @@
+TestBeds:
+  # A test bed where adb will find Android devices.
+  - Name: TestBed1
+    Controllers:
+        AndroidDevice: '*'
+    TestParams:
+        favorite_food: Green eggs and milk
+        junk_food: burger coke and pepsi
+
+  - Name: TestBed2
+    Controllers:
+        AndroidDevice: '*'
+    TestParams:
+        favorite_food: Fruits and Veggies
+        junk_food: Deep fried food
